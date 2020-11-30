@@ -1,0 +1,11 @@
+mysql:
+  host: '127.0.0.1'
+  port: '3306'
+  db-name: 'geek_error'
+  username: 'root'
+  password: 'root'
+  max-idle-conn: 10
+  max-open-conn: 100
+
+system:
+  port: ':8080'
